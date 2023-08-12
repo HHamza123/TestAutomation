@@ -1,5 +1,5 @@
 # TestAutomation
-# Cucumber TestNG Selenium Example
+# Cucumber TestNG Selenium 
 
 This repository contains an example of using Cucumber with TestNG and Selenium to automate testing scenarios on a web application.
 ### Running the Tests
