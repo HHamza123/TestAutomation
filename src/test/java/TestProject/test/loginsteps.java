@@ -39,7 +39,7 @@ public class loginsteps {
 
     @And("User clicks the login button")
     public void user_clicks_the_login_button() {
-        // No need to repeat the action, it's already done in the previous step
+
     }
 
     @Then("User should be logged in successfully")
@@ -56,6 +56,6 @@ public class loginsteps {
     @Then("User should be logged out successfully")
     public void user_should_be_logged_out_successfully() {
         String url = driver.getCurrentUrl();
-        Assert.assertTrue(url.contains("logout_page_url")); // Replace with actual logout page URL
+        Assert.assertTrue(url.contains("logout_page_url"));
     }
 }

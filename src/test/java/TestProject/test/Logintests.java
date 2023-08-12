@@ -67,7 +67,7 @@ public class Logintests {
     @Test(description = "Product Filter", priority = 2)
     public void filter() throws InterruptedException {
         loginPg.filter(driver);
-        System.out.println("Filtering product from Z to A successfully");
+        System.out.println("Filtering Product from Z to A successfully");
     }
 
 
